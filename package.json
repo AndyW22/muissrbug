@@ -9,12 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.0.4",
+    "@mui/lab": "^5.0.0-alpha.51",
+    "@mui/material": "^5.0.4",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
+    "@mui/styles": "^5.0.1",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "@types/styled-components": "^5.1.15",
     "eslint": "8.0.1",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "typescript": "^4.4.4"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
   }
 }
